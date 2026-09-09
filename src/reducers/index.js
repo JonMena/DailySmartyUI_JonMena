@@ -3,7 +3,7 @@ import { combineReducers } from 'redux';
 import { reducer as Form } from 'redux-form';
 
 const rootReducer = combineReducers({
-  Form
+  form:Form
 });
 
 export default rootReducer;
